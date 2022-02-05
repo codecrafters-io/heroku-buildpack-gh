@@ -4,7 +4,7 @@
 
 testDetect()
 {
-  capture ${BUILDPACK_HOME}/bin/detect ${BUILD_DIR}
+  detect
 
   assertEquals 0 ${rtrn}
   assertEquals "gh" "$(cat ${STD_OUT})"
