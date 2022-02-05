@@ -27,3 +27,15 @@ Example usage:
     Running `gh --version` attached to terminal... up, run.3706
     gh version 2.4.0 (2021-12-21)
     https://github.com/cli/cli/releases/tag/v2.4.0
+
+Testing
+-------
+
+This buildpack is tested using [heroku-buildpack-testrunner](https://github.com/heroku/heroku-buildpack-testrunner).
+
+[Build the `heroku/buildpack-testrunner` docker image](https://github.com/heroku/heroku-buildpack-testrunner#docker-usage) 
+and then run this command to run tests: 
+
+```shell
+docker run -it -v $(pwd):/app/buildpack:ro heroku/buildpack-testrunner
+```
