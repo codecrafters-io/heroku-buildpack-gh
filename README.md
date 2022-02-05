@@ -25,8 +25,8 @@ Example usage:
 
     $ heroku run 'gh --version'
     Running `gh --version` attached to terminal... up, run.3706
-    gh version 2.4.0 (2021-12-21)
-    https://github.com/cli/cli/releases/tag/v2.4.0
+    gh version 2.5.0 (2022-02-01)
+    https://github.com/cli/cli/releases/tag/v2.5.0
 
 Testing
 -------
