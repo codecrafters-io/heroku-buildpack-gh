@@ -44,5 +44,4 @@ export PATH="\$PATH:\$HOME/.gh/bin"
 EOF
 chmod +x "$BUILD_DIR/.profile.d/gh.sh"
 
-"$BUILD_DIR/.gh/bin/gh" --version
 echo " done"
