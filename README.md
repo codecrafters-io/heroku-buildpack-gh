@@ -18,9 +18,9 @@ Example usage:
     ...
 
     remote: -----> gh app detected
-    remote: === Fetching and vendoring gh into slug
-    remote: === Installing profile.d script
-    remote: === gh installation done
+    remote: -----> Installing gh-2.5.0.... done
+    remote: -----> Installing profile.d script.... done
+
     ...
 
     $ heroku run 'gh --version'
